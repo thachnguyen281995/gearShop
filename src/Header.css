@@ -1,0 +1,125 @@
+.header {
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding:0 50px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    color: #ff9f00;
+    margin: 0 25px;
+}
+
+.header__logoImage {
+    margin-right: 10px;
+}
+
+.header__logoTitle {
+    text-decoration: none;
+    border: 0;
+    color: white;
+}
+
+.header__search {
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+    border-radius: 24px;
+    margin: 0 auto;
+    
+    
+}
+
+.header__searchInput {
+    height: 20px;
+    padding: 10px;
+    border: none;
+    width: 800px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header__searchInput:focus{
+    outline: none;
+}
+.header__searchIcon {
+    padding: 10px;
+    height: 20px !important;
+    background-color: #ff9f00;
+    cursor: pointer;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav__item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;  
+    color: white;
+}
+
+.nav__itemLineOne {
+    font-size: 10px;
+}
+
+.nav__itemLineTwo {
+    font-size: 13px;
+    font-weight: 800; 
+}
+.nav__item:last-child{
+    display: flex;
+    flex-direction: row;
+}
+.nav__itemBasket {
+ 
+
+    position: absolute;
+    right: 2rem;
+    top: 1.2rem;
+ 
+}
+
+.nav__basketCount {
+   
+    position: absolute;
+  height: 1.2rem;
+  width: 1.2rem;
+  background: #b91c1c;
+  color: #f4f4f5;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1rem;
+  font-weight: 600;
+  top: 1rem;
+  right: 1.5rem;
+
+  user-select: none;
+  
+    user-select: none;
+}
+button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 80px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+  }
+
+
